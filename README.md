@@ -3,14 +3,17 @@ this is my curl commands cheat sheet
 
 # check http header info
 curl -I http://127.0.0.1
+
 ![image](https://github.com/ehsanDadashi/curl/assets/29996315/9798147e-aeb5-4276-bb51-c8f05e07a771)
 
 # check header and content
 curl -i http://127.0.0.1
+
 ![image](https://github.com/ehsanDadashi/curl/assets/29996315/e7b5642e-0bce-4984-9a8d-5d4ade050b1e)
 
 # check all details 
 curl -v http://127.0.0.1
+
 ![image](https://github.com/ehsanDadashi/curl/assets/29996315/751ea0c5-f533-4b74-93b1-318b47f31a0d)
 
 # tell curl to don't check if certificate is valid or not
