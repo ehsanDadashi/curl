@@ -18,6 +18,7 @@ curl -v http://127.0.0.1
 
 # tell curl to don't check if certificate is valid or not
 curl -k https://127.0.0.1
+
 ![image](https://github.com/ehsanDadashi/curl/assets/29996315/310d1e11-d6f6-4f8c-ba52-4af95ecea870)
 
 # work with api 
