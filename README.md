@@ -29,3 +29,7 @@ curl -k https://127.0.0.1
 # post some data with json format
 curl -d '{"name":"ehsan","salary":"4000","age":"34"}' -H "Content-Type: application/json"  https://dummy.restapiexample.com/api/v1/create
 ![image](https://github.com/ehsanDadashi/curl/assets/29996315/5f949a89-3932-4d9e-955a-475c77502272)
+
+# you can tell curl name of http method
+curl -X POST -d '{"name":"ehsan","salary":"4000","age":"34"}' -H "Content-Type: application/json"  https://dummy.restapiexample.com/api/v1/create;
+![image](https://github.com/ehsanDadashi/curl/assets/29996315/82374965-8058-4045-abfe-01506f320ee9)
